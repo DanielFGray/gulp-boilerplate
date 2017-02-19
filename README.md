@@ -4,13 +4,13 @@ Basically just a `gulpfile`.
 
 ## Features
 
-* linting via eslint and stylelint
-  * includes airbnb-base and stylelint-config-standard
-* compiles JavaScript with Babel and uses Browserify to translate `require()`d modules
-  * includes the Babel ES2015 preset
-* compiles CSS with PostCSS
-  * includes cssnext and `nested` plugins
-* separate minified files via uglify and cssnano
+* linting via [eslint](http://eslint.org/) and [stylelint](https://stylelint.io)
+  * includes [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) and [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)
+* compiles JavaScript with [Babel](https://babeljs.io) and uses [Browserify](https://www.npmjs.com/package/browserify) to translate `require()`d modules
+  * includes the [Babel ES2015 preset](https://npmjs.com/package/babel-preset-es2015)
+* compiles CSS with [PostCSS](http://postcss.org)
+  * includes [cssnext](https://cssnext.io) and [nested](https://www.npmjs.com/package/postcss-nested) plugins
+* separate minified files via [uglify](https://www.npmjs.com/package/uglify) and [cssnano](https://www.npmjs.com/package/cssnano)
   * also builds separate sourcemap files
 
 ## Why?
